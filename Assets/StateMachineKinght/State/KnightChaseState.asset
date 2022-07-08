@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d3e86620c540948898d947dc89f252, type: 3}
+  m_Name: KnightChaseState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: de70e3a4fbd8cb34ea88878056756502, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 3a2953d77e0e1754d90e26119c4b02e3, type: 2}
+    trueState: {fileID: 11400000, guid: 58a56bb0d757c004bb35f3131a451409, type: 2}
+    falseState: {fileID: 11400000}
+  sceneGizmoColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

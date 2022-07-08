@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d3e86620c540948898d947dc89f252, type: 3}
+  m_Name: KnightAttackState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 011d9efacc9c523489f78d9282a6fda4, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 9e43705964a1a5048bbb48bdc19e2246, type: 2}
+    trueState: {fileID: 11400000, guid: eb8856ae332d50d4ea9cd37987b04f52, type: 2}
+    falseState: {fileID: 11400000}
+  - decision: {fileID: 11400000, guid: f45f7b6074c2d564784998641811b4d6, type: 2}
+    trueState: {fileID: 11400000, guid: 4e6976a1c70c90248a90b116e11a165e, type: 2}
+    falseState: {fileID: 11400000}
+  sceneGizmoColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
